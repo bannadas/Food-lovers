@@ -41,10 +41,9 @@ p{
     display:flex ;
     margin: 150px;
     align-items: center;
-    
 }
 #myself-bg{
     background-image: url(photos/background.png);
+    background-repeat: no-repeat;
 
 }
-
