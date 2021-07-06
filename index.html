@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div id="menu">
+    <div class="menu">
         <ul style="background-color: black;">
             <li><a href="#Home">Home</a></li>
             <li><a href="#About us">About us</a></li>
@@ -24,10 +24,9 @@
             <li><a href="#Sign up">Sign up</a></li>
         </ul>
     </div>
-    </div>
     <section class="flexible-container">
         <div class="half-width">
-            <h1> <span id="orange-color">Get</span> Best Food </h1>
+            <h1> <span class="orange-color">Get</span> Best Food </h1>
             <h1>From Food Lovers!</h1>
             <p>Skip the diet.Fastfood doesn't have to be unhealthy.We provide healthy and delicious food fo you.</p>
 
@@ -37,23 +36,31 @@
             <img src="photos/first-picture.png" alt="">
         </div>
     </section>
-    <section class="flexible-container" id="myself-bg">
-        <div class="half-width ">
-            <img src="photos/Myself.png" alt="">
-        </div>
-        <div class="half-width  ">
-            <h2>About Me</h2>
-            <p> My name is Banna.I am a student of Honour's first year. I have a food cart called 'Food Lovers'.I always
-                keep my food cart clean and cook healthily.No food from the previous day is kept.New food is prepared
-                everyday.I always cook with an eye on customer satisfaction.
-            </p>
-            <a class="for-order" target="_blank" href="https://www.programming-hero.com/"> Contact Us</a>
-        </div>
 
+    <!-- About Me -->
 
+    <section id="about-section">
+        <div class="container">
+            <div class="about-details">
+                <div class="about-half-img">
+                    <img src="photos/Myself.png" alt="">
+                </div>
+                <div class="about-half-txt">
+                    <h2>About Me</h2>
+                    <p> My name is Banna.I am a student of Honour's first year. I have a food cart called 'Food
+                        Lovers'.I always
+                        keep my food cart clean and cook healthily.No food from the previous day is kept.New food is
+                        prepared
+                        everyday.I always cook with an eye on customer satisfaction.
+                    </p>
+                    <a class="about-btn" target="_blank" href="https://www.programming-hero.com/"> Contact Us</a>
+                </div>
+            </div>
+        </div>
     </section>
+
     <section id="foods">
-        <h2 class="section-heading">Our Recipes</h2>
+        <h2 class="section-heading" style="text-align: center;">Our Recipes</h2>
         <p class="sub-heading">You will get food according to your budget from here. Thinking about the customer, I add
             food of different prices to the menu.
         </p>
@@ -83,6 +90,11 @@
                     etc.), which is then baked at a high temperature, traditionally in a wood-fired oven.</p>
             </li>
         </ul>
+
+        <div class="menu" id="food-lovers">
+            <h3><span class="orange-color">Food</span> Lovers</h3>
+            <p>Eat healthy to live healthy.Live healthy to live happy</p>
+        </div>
 
 </body>
 
