@@ -18,6 +18,10 @@ h1{
 #orange-color{
     color:rgb(240, 101, 50);
 }
+p{
+    font-size: 20px;
+    margin: 20px 0px ;
+}
 .for-order{
     text-decoration: none;
     color: white;
@@ -35,10 +39,12 @@ h1{
 }
 .flexible-container{
     display:flex ;
-    margin: 100px;
+    margin: 150px;
+    align-items: center;
+    
 }
-.myself{
+#myself-bg{
     background-image: url(photos/background.png);
-    background-repeat: no-repeat;
 
 }
+
