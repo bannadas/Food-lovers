@@ -20,7 +20,7 @@ h1{
 }
 p{
     font-size: 20px;
-    margin: 20px 0px ;
+    margin: 20px 20px ;
 }
 .for-order{
     text-decoration: none;
@@ -29,6 +29,8 @@ p{
     background-image: linear-gradient(orange,tomato);
     padding: 10px 30px;
     border-radius:50px;
+    
+   
 }
 .half-width{
     width: 50%;
@@ -44,6 +46,53 @@ p{
 }
 #myself-bg{
     background-image: url(photos/background.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;margin-left: 10px;
+    
+}
+#foods .section-heading{
+    text-align: center;
+    color: rgb(47, 47, 47);
+}
+#foods .sub-heading{
+    text-align: center;
+    opacity: 0.7;
+    width: 50%;
+    margin:20px auto;
+}
+#foods .flex-container{
+    gap: 5%;
+}
+#foods ul{
+    list-style-type: none;
+}
+#foods .flex-item{
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 48px 100px 0px;
+}
+#foods img{
+    border-radius: 15px;
+    height: 400px;
+    width: 400px;
+    
 
 }
+#foods .food-title{
+    font-size: 28px;
+    margin-top: 25px;
+    color: #2f2e2e;
+}
+#foods .food-desc{
+    opacity: 0.8;
+    letter-spacing: 1px;
+}
+img{
+    width: 100%;
+}
+   .flex-container{
+       display: flex;
+       width: 100%;
+       align-items: center;
+       margin: auto;
+   }   
